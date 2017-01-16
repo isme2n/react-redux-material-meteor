@@ -12,7 +12,7 @@ react-redux-material front-end x meteor back-end
 # 어떻게 작동하나요?
 프로젝트를 클론하고, 아래처럼하여 Meteor 백엔드를 엽니다.
 
->$ cd {project_name}/server
+>$ cd {project_name}/rm-back
 >
 >$ npm install
 >
@@ -20,7 +20,7 @@ react-redux-material front-end x meteor back-end
 
 9000번 포트로 백엔드를 열고, 터미널 하나를 더 확장해 클라이언트를 엽니다.
 
->$ cd {project_name}/client
+>$ cd {project_name}/rm-front
 >
 >$ npm install
 >
