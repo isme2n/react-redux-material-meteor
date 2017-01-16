@@ -12,11 +12,17 @@ react-redux-material front-end x meteor back-end
 # 스택
 
 create-react-app
+
 react-redux
+
 asteroid
+
 react-s-alert
+
 material-ui
+
 meteor
+
 
 # 어떻게 작동하나요?
 프로젝트를 클론하고, 아래처럼하여 Meteor 백엔드를 엽니다.
