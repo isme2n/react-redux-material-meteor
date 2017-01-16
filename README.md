@@ -9,6 +9,15 @@ react-redux-material front-end x meteor back-end
 
 백엔드와 클라이언트 앱과의 통신은 DDP(Distributed Data Protocol)로 이루어집니다. 백엔드와 클라이언트는 서로를 전혀 모르지만 같은 언어로 대화하는 것 뿐입니다.
 
+# 스택
+
+create-react-app
+react-redux
+asteroid
+react-s-alert
+material-ui
+meteor
+
 # 어떻게 작동하나요?
 프로젝트를 클론하고, 아래처럼하여 Meteor 백엔드를 엽니다.
 
