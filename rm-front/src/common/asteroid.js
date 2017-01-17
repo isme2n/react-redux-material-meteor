@@ -1,4 +1,4 @@
-import { createClass } from 'asteroid';
+import { createClass } from 'asteroid-isme2n';
 import { setLoggedUser, unsetLoggedUser } from '../actions/LoginActions';
 import store from '../configureStore';
 

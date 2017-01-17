@@ -20,7 +20,9 @@ Meteor.publish('users', function () {
 // Read more: http://guide.meteor.com/methods.html
 Meteor.methods({
 
-
+  getUsers(){
+    return Meteor.users.find().fetch();
+  }
 
 });
 
