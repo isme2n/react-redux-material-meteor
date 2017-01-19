@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Login from '../Login/Login';
 import asteroid from '../../common/asteroid';
 import logo from './logo.svg';
-import './App.css';
+import './Home.css';
 import RaisedButton from 'material-ui/RaisedButton';
 
 class Home extends Component{
@@ -15,17 +15,17 @@ class Home extends Component{
     const { user } = this.props;
     if (user && user.username) {
       return (
-        <div className="App">
-          <div className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+        <div className="Home">
+          <div className="Home-header">
+            <img src={logo} className="Home-logo" alt="logo" />
               <div className="logout">
                 Logged user: {user.username}<br/>
                 <RaisedButton onClick={this.handleLogout} className="logout-button">Logout</RaisedButton>
               </div>
             <h2>Welcome to React</h2>
           </div>
-          <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
+          <p className="Home-intro">
+            To get started, edit <code>src/Home.js</code> and save to reload.
           </p>
         </div>
       );

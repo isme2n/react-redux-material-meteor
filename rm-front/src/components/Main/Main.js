@@ -8,17 +8,6 @@ import './Main.css';
 
 
 class Main extends Component{
-  constructor(props){
-    super(props);
-    this.state = {
-       selectedIndex: 0
-    };
-  }
-
-  select = (index) => this.setState({
-    selectedIndex: index
-  });
-
   render(){
     return (
       <div>
